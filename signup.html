@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up</title>
   <!-- Main Templete CSS File-->
-  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="css/signup.css">
   <!-- Render All Elements Normally-->
   <link rel="stylesheet" href="css/normalize.css">
   <!-- Font Awesome Library-->
@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">  
-  <script defer src="scripts-signup.js"></script>
+  <script defer src="js/scripts-signup.js"></script>
    <!-- ===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -25,39 +25,51 @@
  
   <nav>
     <div class="nav-bar">
-        <i class='bx bx-menu sidebarOpen' ></i>
+        <i  class='bx bx-menu sidebarOpen' ></i>
        <img class="logo" src="img/logo1.png" alt="">
 
         <div class="menu">
             <div class="logo-toggle">
               <img class="logo" src="img/logo1.png" alt="">
-                <i class='bx bx-x siderbarClose'></i>
+                <i id="x" class='bx bx-x siderbarClose'></i>
             </div>
 
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="signup.html">Register</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="login.html">تسجيل الدخول</a></li>
+                <li><a href="signup.html">إنشاء حساب</a></li>
+                <div class="dropdown">
+                  <button class="dropbtn">الخدمات
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div  class="dropdown-content">
+                    <a href="sc1.html">قاعات</a>
+                    <a href="sc1.html">فنادق</a>
+                    <a href="sc1.html">كوافيرات</a>
+                    <a href="sc1.html">كافيهات</a>
+                  </div>
+                </div>
+              </div>
+              </li>
+              <div class="searchBox">
+                <div class="searchToggle">
+                 <i  class='bx bx-x cancel'></i>
+                 <i class='bx bx-search search'></i>
+                </div>
+
+                 <div class="search-field">
+                     <input type="text" placeholder="Search...">
+                     <i  class='bx bx-search'></i>
+                 </div>
+             </div>
+         </div>
+     </div>
+      </div>
+
 
        
 
-            <div class="searchBox">
-               <div class="searchToggle">
-                <i class='bx bx-x cancel'></i>
-                <i class='bx bx-search search'></i>
-               </div>
-
-                <div class="search-field">
-                    <input type="text" placeholder="Search...">
-                    <i class='bx bx-search'></i>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 </nav>
 
 
@@ -97,7 +109,7 @@
   </html>
   
     <!-- End Portfolio -->
-       <!-- Start Footer -->
+             <!-- Start Footer -->
   <footer>
     <div class="content" id="contact">
       <div class="top">
@@ -114,10 +126,10 @@
         </div>
       </div>
       <div class="link-boxes">
-        <ul class="box">
+      <!--    <ul class="box">
          <li> <a class="link_name" href="#portfolio">أفضل الخطط</a></li> 
           
-        </ul>
+      </ul>
         <ul class="box">
           
           <li> <a class="link_name" href="#">الخدمات</a></li> 
@@ -126,7 +138,7 @@
           
           <li> <a class="link_name" href="#">من نحن</a></li> 
        </ul>
-        </ul>
+        </ul> -->
         <ul class="box input-box">
           <li><input type="text" placeholder=" البريد الالكتروني"></li>
           <li><input type="button" value="تواصل معنا"></li>
