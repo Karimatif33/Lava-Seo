@@ -9,6 +9,7 @@ const body = document.querySelector("body"),
       const navactivemenu = document.querySelector("nav.active .menu")
     
        
+      
 
 
 // js code to toggle search box
