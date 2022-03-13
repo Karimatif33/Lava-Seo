@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lava seo</title>
+  <!-- Main Templete CSS File-->
+  <link rel="stylesheet" href="css/sc1.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'
+  <!-- Render All Elements Normally-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Font Awesome Library-->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">  
+  <script defer src="js/sc1.js"></script>
+  
+</head>
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i  class='bx bx-menu sidebarOpen' ></i>
+           <img class="logo" src="img/logo1.png" alt="">
+
+            <div class="menu">
+                <div class="logo-toggle">
+                  <img class="logo" src="img/logo1.png" alt="">
+                    <i id="x" class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="login.html">تسجيل الدخول</a></li>
+                    <li><a href="signup.html">إنشاء حساب</a></li>
+                    <div class="dropdown">
+                      <button class="dropbtn">الخدمات
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div  class="dropdown-content">
+                        <a href="sc1.html">قاعات</a>
+                        <a href="sc1.html">فنادق</a>
+                        <a href="sc1.html">مطاعم</a>
+                        <a href="sc1.html">كافيهات</a>
+                      </div>
+                    </div>
+                  </div>
+                  </li>
+                  <div class="searchBox">
+                    <div class="searchToggle">
+                     <i  class='bx bx-x cancel'></i>
+                     <i class='bx bx-search search'></i>
+                    </div>
+ 
+                     <div class="search-field">
+                         <input type="text" placeholder="Search...">
+                         <i  class='bx bx-search'></i>
+                     </div>
+                 </div>
+             </div>
+         </div>
+          </div>
+    
+
+           
+
+       
+    </nav>
+
+ <!-- Start Main-->
+ <div id="filter" class="fil"><i class="fa-solid fa-filter fa-xl"></i></div>
+ <div class="articles" id="articles">
+
+  <h2 class="main-title"> </h2>
+  <div class="checbox">   
+
+
+    <button class="btn1"><i class="fa fa-close"></i></button>
+  	<div class="left-sidebar">
+        
+        <div class="panel-group-category-products" id="accordian"><!--category-productsr-->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="p" href="#">
+                  المدينة
+                </a>
+              </h4>
+            </div>
+            <div id="sportswear" class="panel-co">
+              <div class="panel1">
+                <label class="country" for="country"></label>
+                <select id="country" name="country">
+                  <option value="cairo">القاهره</option>
+                  <option selected value="mans">المنصورة</option>
+                  <option  value="newdami">دمياط الجديدة</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="p" href="#mens">
+                  سعة الأشخاص
+                </a>
+              </h4>
+            </div>
+            <div id="mens" class="panel-co">
+              <div class="panel">
+                <ul>
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle1"> 250-100 شخص</label><br>
+                  <input checked type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                  <label for="vehicle2"> 400-250 شخص</label><br>
+                  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                  <label for="vehicle3"> 600-400 شخص</label><br>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="p" href="#womens">
+                  الحد الأدنى للسعر
+                </a>
+              </h4>
+            </div>
+            <div id="womens" class="panel-co">
+              <div class="panel">
+                <ul>
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle1"> 7.500-5.000 جنيهاً</label><br>
+                  <input checked type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                  <label for="vehicle2"> 10.000-7.500 جنيهاً</label><br>
+                  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                  <label for="vehicle3"> 12.500-10.000 جنيهاً</label><br>
+                </ul>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="p" href="#womens">
+                  عروض وخصومات
+                </a>
+              </h4>
+            </div>
+            <div id="womens" class="panel-co">
+              <div class="panel">
+                <ul>
+                  <input checked type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                  <label for="vehicle1"> العرض 1</label><br>
+                  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                  <label for="vehicle2"> العرض 2</label><br>
+                  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                  <label for="vehicle3"> العرض 3</label><br>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div><!--/category-productsr-->
+        <a href="sc1.html">
+        <button class="btn success">Submit</button>
+      </a>
+  </div> 
+ </div>
+  <div class="container">
+
+ 
+    <div class="box">
+      <img src="img/1.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/2.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/3.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/4.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/5.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/6.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/7.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/8.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/9.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/10.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/11.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+    <div class="box">
+      <img src="img/Main1.jpg" alt="" />
+      <div class="content">
+        <h3>Test Title</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+      </div>
+      <div class="info">
+        <a href="hall-show.html">Read More</a>
+        <i class="fas fa-long-arrow-alt-right"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Main -->
+
+  <!--demo--
+ 
+
+
+  <div class="w3-bar">
+    <a href="#" class="w3-button">1</a>
+    <a href="#" class="w3-button">2</a>
+    <a href="#" class="w3-button">3</a>
+    <a href="#" class="w3-button">4</a>
+    <a href="#" class="w3-button">5</a>
+  </div> 
+
+
+<!-- end demo-->
+       
+  
+
+
+       <!-- Start Footer -->
+  <footer>
+    <div class="content" id="contact">
+      <div class="top">
+        <div class="logo-details">
+            <img style="max-width: 149px;" src="img/logo1.png" alt="">
+        </div>
+           <div class="media-icons">
+          <a target="blank" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+          <a target="blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          <a target="blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          <a target="blank" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+          <a target="blank" href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+          
+        </div>
+      </div>
+      <div class="link-boxes">
+      <!--    <ul class="box">
+         <li> <a class="link_name" href="#portfolio">أفضل الخطط</a></li> 
+          
+      </ul>
+        <ul class="box">
+          
+          <li> <a class="link_name" href="#">الخدمات</a></li> 
+         </ul>
+        <ul class="box">
+          
+          <li> <a class="link_name" href="#">من نحن</a></li> 
+       </ul>
+        </ul> -->
+        <ul class="box input-box">
+          <li><input type="text" placeholder=" البريد الالكتروني"></li>
+          <li><input type="button" value="تواصل معنا"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2021 <a href="#">Lava Ceo.</a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+   <!-- End Footer -->
+   
+
+  </body>
+</html>
