@@ -390,7 +390,7 @@ nav .nav-bar .sidebarOpen{
   .container{
     position: relative;
     max-width: 850px;
-    width: 115%;
+    width: 100%;
     background: #fff;
     padding: 141px 37px;
     box-shadow: 0 5px 10px rgb(0 0 0 / 20%);

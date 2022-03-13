@@ -6,9 +6,13 @@ searchToggle = document.querySelector(".searchToggle"),
 sidebarOpen = document.querySelector(".sidebarOpen"),
 siderbarClose = document.querySelector(".siderbarClose");
 const   x = document.getElementById("x");
-const navactivemenu = document.querySelector("nav.active .menu")
+const navactivemenu = document.querySelector("nav.active .menu");
+const mediaQuery = matchMedia('(min-width: 790px)')
+const filter = document.getElementById("filter");
+const checbox = document.querySelector(".checbox");
+const active = document.querySelector(".active");
 
- 
+
 
 
 // js code to toggle search box
@@ -25,7 +29,12 @@ nav.classList.add("active");
 x.addEventListener("click", (eo) => {
 
 nav.classList.remove("active")
-})
+});
 
 
 
+filter.addEventListener("click" , (eo) =>{
+  
+  checbox.style.display = "block"
+
+});

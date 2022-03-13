@@ -563,7 +563,9 @@ img{
   color: #fff;
 }
 
-@media screen and (min-width: 992px){
+
+
+@media screen and (min-width: 767px){
   .card{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -588,10 +590,11 @@ img{
 }
 @media screen and (min-width: 2500px){
   .card-wrapper{
-    max-width: 1500px;
+    max-width: 2237px;
     margin: 100px auto;
-  }
 }
+  }
+
 
   /* end main */
 

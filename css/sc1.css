@@ -396,26 +396,48 @@ direction: rtl;
 .checbox{
   display: grid;
   text-align: center;
-  margin-right: 100px;
-  margin-left: 1307px;
-  margin-bottom: 17px;
-  margin-top: 147px;
-  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -181px;
+  margin-top: 306px;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
   background-color: #ffffff94;
   border: solid #2c4755;
   padding-bottom: 55px;
-  padding-top: 25px;
-  padding-right: 54px;
-  padding-left: 0px;
+  padding-top: -64px;
+  padding-right: 143px;
+  padding-left: 100px;
   border-radius: 10px;
-
 }
+
+
+.fil i{
+  display: none;
+  margin-top: 124px;
+    margin-bottom: -190px;
+    margin-right: -83px;
+    margin-left: 621px; 
+    color: var(--nav-color);
+}
+.active {
+  display: block;}
 @media (max-width: 790px) {
  .checbox {
-      display: none;
-      margin-left: 25px;
-      margin-right: 25px;}
-  
+  display: none;
+  margin-left: -381px;
+  margin-right: 61px;
+  margin-bottom: -121px;
+  margin-top: 134px;
+
+
+}
+      .fil i{
+        display: block;
+        margin-top: 100px;
+        margin-bottom: -104px;
+        margin-right: 0px;
+        margin-left: 177px;
+      }
   .btn1 {
     display: block;
     margin-right: -21px;
@@ -424,7 +446,11 @@ direction: rtl;
     font-size: 28px;
   }
 }
-
+@media (max-width: 300px) {
+   .articles {
+    margin-left: 71px   }
+ }
+ 
 .btn1 {
   display: none;
   margin-right: -21px;
@@ -458,6 +484,7 @@ color: var(--nav-color);
   color: #2c4755;
   font-size: 21px;
   margin-right: -64px;
+  display: flow-root;
 }
 .panel-co .panel  {
   direction: rtl;
@@ -502,21 +529,30 @@ margin-left: -80px;
     padding-top: var(--main-padding-top);
     padding-bottom: var(--main-padding-bottom);
     position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    grid-gap: 1.5rem;
+    justify-content: center;
   }
+  
   .articles .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
     gap: 40px;
     margin-top: -564px;
     margin-bottom: 60px;
-    margin-left: 75px;
+    margin-left: auto;
+    margin-right: 110px;
   }
   @media (max-width: 767px) {
     .articles .container{
-      margin-top: 74px;
-         margin-left: 0px;
+      margin-top: 146px;
+      margin-right: 41px;
+      margin-left: 67px;
+      width: 316px;
+  }
      }
-   }
+   
   .articles .box {
     box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
     background-color: white;
