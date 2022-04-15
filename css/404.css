@@ -615,8 +615,8 @@ hr:after {
 }
 
 .cloud {
+  display: none;
     width: 350px; height: 120px;
-
     background: #2c4755;
     background: linear-gradient(top, #2c4755 100%);
     background: -webkit-linear-gradient(top, #2c4755 100%);
@@ -953,7 +953,7 @@ hr:after {
   }
   @media (max-width: 700px){
     footer{
-      position: relative;
+      position: fixed;
     }
   .content .top .logo-details img {
       max-width: 109px;
