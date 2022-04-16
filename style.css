@@ -568,8 +568,10 @@ margin-bottom: 0;
   max-width: 100%;
   transition: var(--main-transition);
 }
+/* movement */
 .gallery .box .image:hover img {
   transform: rotate(5deg) scale(1.1);
+  transition: 0.8s;
 }
 /* cinter Gallery */
 
@@ -592,9 +594,10 @@ margin-bottom: 0;
 .gallery .box .image1:hover::before {
   animation: flashing 0.7s;
 }
-
+/* movememt2 */
 .gallery .box .image1:hover img {
   transform: rotate(-5deg) scale(1.1);
+  transition: 0.8s;
 }
 /* End Gallery */
 /*Start Footer*/
